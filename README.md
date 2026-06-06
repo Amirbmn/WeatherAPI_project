@@ -17,7 +17,7 @@ Install:
 
 pip install requests
 Run
-python weather_app.py
+python weatherAPI.py
 
 Note:
 Each search adds a new result label in the window.
