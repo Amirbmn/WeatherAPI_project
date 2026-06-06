@@ -4,24 +4,21 @@ A simple desktop application that shows the temperature for a given city and dat
 
 ## What it does
 
+• Enter a city and date (YYYY-MM-DD)
 
-| **City Input** | Enter any city name (e.g., London, New York, Tokyo) |
-| **Date Selection** | Enter a date in YYYY-MM-DD format (e.g., 2024-12-25) |
-| **Weather Fetch** | Retrieves weather data from Visual Crossing Weather API |
-| **Temperature Extraction** | Finds the temperature for the specified day |
-| **Unit Conversion** | Automatically converts temperature to Celsius |
-| **Display** | Shows results in a scrollable window with each search adding a new label |
+• Fetch weather data from Visual Crossing Weather
+
+• Finds the temperature for that day
+
+• Converts it to Celsius
+
+• Displays it in a window
 
 ## Requirements
 
-- **Python 3** - Version 3.7 or higher
-- **requests** - HTTP library for API calls
-- **Internet connection** - Required for API access
+• Python 3
+
+• requests
+
 
 ## Installation
-
-1. **Clone or download** this repository
-
-2. **Install dependencies**:
-```bash
-pip install requests
