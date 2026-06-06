@@ -22,3 +22,14 @@ A simple desktop application that shows the temperature for a given city and dat
 
 
 ## Installation
+
+pip install requirements
+
+## Run
+
+python weatherAPI.py
+
+
+## Note
+
+Each search adds a new result label in the window.
